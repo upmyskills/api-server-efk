@@ -1,0 +1,45 @@
+{
+  "name": "apiserver",
+  "scripts": {
+    "start": "ts-node ./src/bin/www.ts",
+    "lint": "eslint ./src",
+    "mon": "nodemon"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "dependencies": {
+    "@google-cloud/storage": "^5.10.0",
+    "@types/config": "0.0.38",
+    "@types/cors": "^2.8.12",
+    "@types/debug": "^4.1.6",
+    "@types/express": "^4.17.13",
+    "@types/http-errors": "^1.8.1",
+    "@types/node": "^16.3.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.1",
+    "@types/express-handlebars": "^5.3.1",
+    "@types/jsonwebtoken": "^8.5.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
